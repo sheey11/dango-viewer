@@ -15,7 +15,7 @@ Or multi-line:
 And it support edit and save!
 
 ## Library
-* (MaterialDesignInXamlToolkit)[https://github.com/ButchersBoy/MaterialDesignInXamlToolkit]
+* [MaterialDesignInXamlToolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
 
 # License
 MIT.
