@@ -43,7 +43,7 @@ namespace dango_viewer {
                 dango.Kanji = Regex.Match(s, KANJI_REGEX).Value;
                 dango.Kana = Regex.Match(s, KANA_REGEX).Value;
                 var meanning = Regex.Match(s, MEANING_REGEX);
-                dango.Meanning = meanning.Groups[1].Value == "" ? meanning.Groups[2].Value : meanning.Groups[1].Value;
+                dango.Meaning = meanning.Groups[1].Value == "" ? meanning.Groups[2].Value : meanning.Groups[1].Value;
 
                 if (!dango.GetIsEmpty()) {
                     dangos.Add(dango);
@@ -85,7 +85,7 @@ namespace dango_viewer {
         void Save(string path) {
             StreamWriter sw = new StreamWriter(path);
             foreach (Dango dango in dangos) {
-                var lineStr = dango.Kanji + " " + dango.Kana + " " + dango.Meanning;
+                var lineStr = dango.Kanji + " " + dango.Kana + " " + dango.Meaning;
                 sw.WriteLine(lineStr);
             }
             sw.Flush();

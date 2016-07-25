@@ -8,10 +8,10 @@ namespace dango_viewer {
     class Dango {
         public string Kanji { get; set; }
         public string Kana { get; set; }
-        public string Meanning { get; set; }
+        public string Meaning { get; set; }
 
         public bool GetIsEmpty() {
-            return Kanji == "" && Kana == "" && Meanning == "";
+            return Kanji == "" && Kana == "" && Meaning == "";
         }
     }
 }

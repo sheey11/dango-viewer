@@ -24,9 +24,9 @@
                                      Style="{StaticResource MaterialDesignMultiFloatingActionAccentPopupBox}"
                                      Height="55" Width="55" Background="#FF36BCE8" BorderBrush="#FF36BCE8"
                                      Canvas.Bottom="20" Canvas.Right="20">
-                <materialDesign:PopupBox.ToggleCheckedContent>
-                    <materialDesign:PackIcon Kind="Pencil" Width="24" Height="24" />
-                </materialDesign:PopupBox.ToggleCheckedContent>
+                <materialDesign:PopupBox.ToggleContent>
+                    <materialDesign:PackIcon Kind="Plus" Width="24" Height="24"/>
+                </materialDesign:PopupBox.ToggleContent>
                 <StackPanel>
                     <Button ToolTip="Add" Background="White" BorderBrush="White" Click="Button_Click">
                         <materialDesign:PackIcon Kind="Plus" Height="20" Width="20" />
