@@ -12,7 +12,7 @@ Or multi-line:
     Kanji1 Kana1 Meaning1
     Kanji2 Kana2 Meaning2
 
-And it suppose edit and save!
+And it support edit and save!
 
 ## Library
 * (MaterialDesignInXamlToolkit)[https://github.com/ButchersBoy/MaterialDesignInXamlToolkit]
